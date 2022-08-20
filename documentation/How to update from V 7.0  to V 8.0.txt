@@ -1,0 +1,7 @@
+1. Update database
+>>>No database change
+
+2. upload all content from /Compiled/ folder to your webserver
+
+Its done now your application is updated from V 7.0 to V 8.0
+

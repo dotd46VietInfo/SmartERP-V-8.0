@@ -1,0 +1,7 @@
+1. Update database
+>>>Excuete database script from Db Folder >> update-db-from-v-6.1-to-v-7.0.sql file
+
+2. upload all content from /Compiled/ folder to your webserver
+
+Its done now your application is updated from V 6.1 to V 7.0
+

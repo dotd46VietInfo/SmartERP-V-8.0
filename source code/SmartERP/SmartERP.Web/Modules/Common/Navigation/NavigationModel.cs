@@ -39,12 +39,10 @@ namespace SmartERP.Navigation
             if (cache is null)
                 throw new ArgumentNullException(nameof(cache));
 
-            Items = cache.GetLocalStoreOnly("LeftNavigationModel:NavigationItems:" +
-              (user?.GetIdentifier() ?? "-1"), TimeSpan.Zero,
+            Items = cache.GetLocalStoreOnly("LeftNavigationModel:NavigationItems:" + (user?.GetIdentifier() ?? "-1"), TimeSpan.Zero,
                 UserPermissionRow.Fields.GenerationKey, () =>
-                    NavigationHelper.GetNavigationItems(permissions, typeSource,
-                        services, x => x != null && x.StartsWith("~/") ?
-                            VirtualPathUtility.ToAbsolute(PathBase, x) : x));
+                NavigationHelper.GetNavigationItems(permissions, typeSource, services, x => x != null && x.StartsWith("~/") ? VirtualPathUtility.ToAbsolute(PathBase, x) : x)
+                );
 
             RequestUrl = requestUrl;
             PathBase = pathBase;

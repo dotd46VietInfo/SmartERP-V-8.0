@@ -160,5 +160,8 @@
   "Validation.InvalidActivateToken": "Mã token để kích hoạt tài khoản của bạn không hợp lệ hoặc đã hết hạn!",
   "Validation.InvalidResetToken": "Mã token khởi tạo lại mật khẩu của bạn không hợp lệ hoặc đã hết hạn!",
   "Validation.MinRequiredPasswordLength": "Mật khẩu đã nhập không đủ số kí tự (tối thiểu {0})!",
-  "Validation.SavePrimaryKeyError": "Không thể lưu dòng dữ liệu. Đã có dòng dữ liệu khách có cùng giá trị {1}!"
+  "Validation.SavePrimaryKeyError": "Không thể lưu dòng dữ liệu. Đã có dòng dữ liệu khách có cùng giá trị {1}!",
+  "Db.Distributor.Distributor.EntityPlural": "Danh sách nhà phân phối",
+  "Navigation.Distributor": "Nhà phân phối",
+  "Navigation.List": "Danh sách"
 }

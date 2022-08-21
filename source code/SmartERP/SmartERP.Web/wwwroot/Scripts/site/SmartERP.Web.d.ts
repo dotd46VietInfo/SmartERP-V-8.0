@@ -9714,6 +9714,8 @@ declare namespace SmartERP.Banks {
         constructor(container: JQuery);
     }
 }
+declare namespace SmartERP.Distributor {
+}
 declare namespace SmartERP.LanguageList {
     function getValue(): string[][];
 }
